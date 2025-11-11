@@ -13,6 +13,8 @@ import ContactCenterForm from '@/components/sections/contact/ContactCenterForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
 import { BarChart3, Bot, DollarSign, Handshake, Package, Shield, Smartphone, Star, TrendingUp, Users, Zap } from "lucide-react";
 
+const assetMap = [];
+
 export default function Home() {
   return (
     <ThemeProvider
@@ -122,7 +124,7 @@ export default function Home() {
               "id": "basic-trading",
               "brand": "TradeZen",
               "name": "Basic Trading Package",
-              "price": "$29/month",
+              "price": "$33/month",
               "rating": 5,
               "reviewCount": "2.1k",
               "imageSrc": "https://pixabay.com/get/g9dd9a81c02e5950d1b353f021e890072bf5c39d1415a54f3e70e6d58fb93bcdb695328ff63dc6ca02302b2ecf78ccd5a4d7368fce3c52212b1abb717f9462f84_1280.jpg",
@@ -132,7 +134,7 @@ export default function Home() {
               "id": "pro-trading",
               "brand": "TradeZen",
               "name": "Pro Trading Suite",
-              "price": "$79/month",
+              "price": "$88/month",
               "rating": 5,
               "reviewCount": "4.8k",
               "imageSrc": "https://pixabay.com/get/ge59e4e5d55cbfa50b5c33612343c8ca545af131007e0dbf430ed677fb3fa434fd0f5b7a127cbe72973d2257a2a899e026975c6c2f6b626443c1dc676fafe9b7f_1280.jpg",
@@ -142,7 +144,7 @@ export default function Home() {
               "id": "enterprise-trading",
               "brand": "TradeZen",
               "name": "Enterprise Solution",
-              "price": "$199/month",
+              "price": "$188/month",
               "rating": 5,
               "reviewCount": "1.2k",
               "imageSrc": "https://pixabay.com/get/g2c20d6886603471957886bc00983c962535636a970df5297677cadee959972e41b7cdc0bab122bf3963ee77d9e838efee75e8bd71102a6627aa5c59deb87349a_1280.jpg",
@@ -163,7 +165,7 @@ export default function Home() {
           plans={[
             {
               "id": "starter",
-              "price": "$29/month",
+              "price": "$33/month",
               "name": "Starter Plan",
               "buttons": [
                 {"text": "Start Free Trial", "href": "contact"},
@@ -180,7 +182,7 @@ export default function Home() {
               "id": "professional",
               "badge": "Most Popular",
               "badgeIcon": Star,
-              "price": "$79/month",
+              "price": "$88/month",
               "name": "Professional Plan",
               "buttons": [
                 {"text": "Start Free Trial", "href": "contact"},
@@ -196,7 +198,7 @@ export default function Home() {
             },
             {
               "id": "enterprise",
-              "price": "$199/month",
+              "price": "$188/month",
               "name": "Enterprise Plan",
               "buttons": [
                 {"text": "Contact Sales", "href": "contact"},
