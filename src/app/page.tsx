@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -332,8 +332,6 @@ export default function Home() {
               ]
             }
           ]}
-          brandName="TradeZen"
-          copyrightText="© 2025 | TradeZen - Making Trading Fun"
         />
       </div>
     </ThemeProvider>
