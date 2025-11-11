@@ -48,7 +48,7 @@ export default function Home() {
 
       <div id="hero" data-section="hero">
         <HeroBillboard
-          title="Trade Smarter, Not Harder"
+          title="Trading Adventures Await! 🚀"
           description="Join thousands of traders who've discovered the fun side of financial markets with our intuitive platform and powerful tools"
           tag="Welcome to Trading"
           tagIcon={TrendingUp}
